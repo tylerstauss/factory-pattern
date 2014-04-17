@@ -14,6 +14,14 @@ The client is using a graphical design application and decides to create a new c
 
 The advantage is that new shapes can be added without changing a single line of code in the framework. 
 
-Most commonly used in Java.
+Most commonly used in Java, but the theory can be used in any language including Ruby and Javascript.
+
+The Factory pattern can be especially useful when applied to the following situations:
+
+When our object or component setup involves a high level of complexity
+When we need to easily generate different instances of objects depending on the environment we are in
+When we're working with many small objects or components that share the same properties
+When composing objects with instances of other objects that need only satisfy an API contract (aka, duck typing) to work. This is useful for decoupling.
 
 http://designpatternsinruby.com/section01/article.html
+http://addyosmani.com/resources/essentialjsdesignpatterns/book/#factorypatternjavascript
