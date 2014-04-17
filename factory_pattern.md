@@ -15,3 +15,5 @@ The client is using a graphical design application and decides to create a new c
 The advantage is that new shapes can be added without changing a single line of code in the framework. 
 
 Most commonly used in Java.
+
+http://designpatternsinruby.com/section01/article.html
